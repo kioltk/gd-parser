@@ -137,7 +137,7 @@ module.exports = async (path) => {
                 x: parseCoordinate(readByte(file)),
                 y: parseCoordinate(readByte(file))
             }   
-        } else {
+        } else {t
             return {
                 x: readByte(file),
                 y: readByte(file)
